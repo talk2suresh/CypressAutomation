@@ -23,6 +23,7 @@ describe('Verify DropDown List', () => {
             // Get all options and print their text
             const optionsText = Array.from(dropdown.options).map(option => option.text);
             cy.log(optionsText);
+            console.log("All options in the dropdown:", optionsText);
         });
     });
 });
